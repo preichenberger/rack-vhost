@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name         = 'rack-vhost'
-  gem.version      = '0.1.1'
+  gem.version      = '0.1.2'
   gem.summary      = 'Rack middleware to dispatch to an application via host header'
   gem.description  = 'Rack middleware to dispatch to an application via host header.'
   gem.author       = 'Philip Reichenberger'

@@ -3,7 +3,7 @@ module Rack
     def initialize(app, args)
       @app = app
       @sub_app = args[:app]
-      @regex = args[:vhost]
+      @regex = Regexp.new(args[:vhost].to_s)
     end 
 
     def call(env)
