@@ -1,4 +1,4 @@
 rack-vhost
 ==========
 
-Simple Rack middleware to route via host header
+Rack middleware to dispatch to an application via host header.
