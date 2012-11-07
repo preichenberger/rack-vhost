@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
   s.author              = 'Philip Reichenberger'
   s.email               = 'preichenberger@philcolabs.com'
   s.homepage            = 'http://github.com/preichen/rack-vhost'
-  s.rubyforge_project   = 'rack-vhost'
   s.has_rdoc            =  false
   s.require_path        = 'lib'
   s.files               =  File.read('Manifest').strip.split('\n')
