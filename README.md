@@ -3,6 +3,15 @@ rack-vhost
 
 Rack middleware to dispatch to an application via host header.
 
+Install gem:
+
+    gem install rack-vhost
+
+or in Gemfile:
+
+    source :rubygems
+    gem 'rack-vhost'
+
 Example config.ru:
 
     require 'rack/vhost'
