@@ -1,11 +1,11 @@
 Gem::Specification.new do |gem|
   gem.name         = 'rack-vhost'
-  gem.version      = '0.1.2'
+  gem.version      = '0.1.3'
   gem.summary      = 'Rack middleware to dispatch to an application via host header'
   gem.description  = 'Rack middleware to dispatch to an application via host header.'
   gem.author       = 'Philip Reichenberger'
   gem.email        = 'preichenberger@philcolabs.com'
-  gem.homepage     = 'http://github.com/preichen/rack-vhost'
+  gem.homepage     = 'http://github.com/preichenberger/rack-vhost'
   gem.has_rdoc     = false
   gem.require_path = 'lib'
   gem.files        = `git ls-files`.split($/)
